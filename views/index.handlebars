@@ -1,0 +1,64 @@
+
+
+
+
+
+
+<div class="row">
+    <!-- INPUTS GO HERE-->
+    <div class="col-md-2">
+        <!-- FILLER-->
+    </div>
+
+    <div class="col-md-4">
+
+
+
+
+
+        {{#each burgersToEat}}
+        <div class="row">
+            <div class="col-md-12">
+                <div class="burgerToEatBox" id = "{{id}}">
+                    <p>{{id}}. {{innerText}} </p>
+                </div>
+                <button class="eatButton" id = "{{id}}">Devour It!</button>
+            </div>
+        </div>
+        {{/each}}
+
+
+
+
+
+
+    </div>
+
+    <div class="col-md-4">
+        <!-- BURGERS EATEN HERE-->
+
+
+
+
+        {{#each burgersEaten}}
+        <div class="row">
+            <div class="col-md-12">
+                <div class="burgersEaten eaten{{id}}">
+                    <p>{{id}}. {{innerText}}</p>
+                </div>
+
+            </div>
+        </div>
+        {{/each}}
+
+
+
+
+
+    </div>
+
+    <div class="col-md-2">
+        <!-- FILLER-->
+    </div>
+
+</div>

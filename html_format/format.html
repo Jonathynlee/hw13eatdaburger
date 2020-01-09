@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <style>
+    body{
+        background-color: rgb(219, 191, 100);
+        height:100%;
+        width:100%;
+    }
+
+    .burger_image{
+        height:200px;
+        width:225px;
+        margin: 0px auto;
+    }
+    .burger_image img{
+        
+        width:225px;
+        height:auto;
+        
+    }
+    .text_div{
+        width:100%;
+        text-align:center;
+    }
+    .text_div h1{
+        color:rgb(179, 48, 48);
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 30px;
+        margin:0px auto;
+    }
+    .burger_input{
+    width:40%;
+    height:75px;
+    margin: 15px 30%;
+    }
+    .burgerToEatBox{
+        width:70%;
+        height:50px;
+        background-color: rgb(207, 207, 207);
+        border: 2px solid rgb(153, 144, 144);
+        float: left;
+        margin:10px 10px;
+        text-align:center;
+    }
+    .eatButton{
+        position: absolute;
+        right:0px;
+        bottom:10px;
+    }
+    .burgersEaten{
+        width:90%;
+        height:30px;
+        background-color: rgb(163, 163, 163);
+        border: 2px solid rgb(153, 144, 144);
+        float: left;
+        margin:10px 10px;
+        color:rgb(92, 92, 92);
+    }
+    </style>
+</head>
+<body>
+    <div class="row">
+    <div class = "burger_image">
+        <img src="images/burger.png">
+    </div>
+</div>
+
+<div class="row">
+    <div class = "text_div">
+        <h1>EAT-DA-BURGER!</h1>
+    </div>
+</div>
+<div class="row">
+<!-- INPUTS GO HERE-->
+<div class = "col-md-2"><!-- FILLER--></div>
+
+<div class = "col-md-4">
+    <!------------------------- BURGERS TO DEVOUR HERE------------------------->
+    <div class = "row">
+        <div class = "col-md-12">
+        <div class = "burgerToEatBox">
+            <p> Text Here</p>
+        </div>
+        <button class = "eatButton">Devour It!</button>
+    </div>
+    </div>
+
+  <!------------------------- END DEVOUR HERE------------------------->
+    
+    
+</div>
+
+<div class = "col-md-4">
+    <!-- BURGERS EATEN HERE-->
+    <div class = "row">
+        <div class = "col-md-12">
+        <div class = "burgersEaten">
+            <p>test</p>
+        </div>
+       
+    </div>
+    </div>
+
+</div>
+
+<div class = "col-md-2"><!-- FILLER--></div>
+
+</div>
+
+<div class="row">
+        <textarea class = "burger_input"></textarea>
+    </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  
+    </body>
+</html>
