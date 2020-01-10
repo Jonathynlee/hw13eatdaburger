@@ -1,6 +1,6 @@
 // Set up MySQL connection.
 var mysql = require("mysql");
-const dbConfig = require("../config/db.config.js");
+const dbConfig = require("../db.config");
 
 var connection = mysql.createConnection({
   host: dbConfig.HOST,
